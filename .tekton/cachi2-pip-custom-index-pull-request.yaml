@@ -218,6 +218,8 @@ spec:
         workspace: workspace
       - name: git-basic-auth
         workspace: git-auth
+      - name: netrc
+        workspace: netrc
     - name: build-container
       params:
       - name: IMAGE
@@ -457,4 +459,7 @@ spec:
   - name: git-auth
     secret:
       secretName: '{{ git_auth_secret }}'
+  - name: netrc
+    secret:
+      secretName: netrc
 status: {}
