@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-312:1@sha256:1aae71021bfc86954a80366e0e479dcb6766a1f3e1424a7e3b7c4f1538b31d96
+FROM registry.access.redhat.com/ubi9/python-312:1@sha256:060d8a6a97ce8949fa59ef9c527c809211fc09eb896464b376d0b04b37efad15
 
 WORKDIR /opt
 COPY requirements.txt requirements2.txt .
